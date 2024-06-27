@@ -1,0 +1,177 @@
+<header>
+    <div class="header-banner">
+        <h1>Website Audit: Strong Families (strong-families.org) </h1>
+    </div>
+    <div class="clear"></div>
+    <nav>
+        <div class="site-title"> Website Audit: Strong Families (strong-families.org) </div>
+       
+    </nav>
+</header>
+     
+<section class="content">
+    <article>
+        <p>  <strong> Overall Impression:  </strong> Strong Families has a website that prioritizes functionality over design. While the design might appear outdated, it offers a clear and concise presentation of services
+            Note that the lack of modern  design might unintentionally convey a sense of tradition and stability, potentially appealing to users seeking established organizations.
+            A refresh could enhance the website's visual appeal yes but also some HD  images would create a more modern look without requiring a complete redesign.Considering the availability of ERN counselors for various critical topics (alcoholism, grief, parenting, abuse, finances), their expertise could be emphasized on the homepage to showcase the range of support offered because not everyone goes deep into a website unless the have an idea of what the are looking for already. 
+            It's important to understand that innovation might not be a top priority for Family Services and Children's Aid. Your  focus might be on reliable service delivery.
+            
+           
+             </p>
+       
+        <p>  The website appears to rank well for relevant keywords like "family services and aids," making it easy for users to find them </p>
+        <p>By  utilizing the WordPress analytics dshboard you can get some  valuable insights into website traffic. Analyzing monthly or yearly visitor data can help determine if website performance meets your  goals </p>
+        <p> <br><br> <strong>  Redesign Cost vs. Benefit: </strong> <br>  While a redesign could be beneficial, it's important to weigh the cost against the potential return on investment (ROI) for an organization like Strong Families. Their primary focus might not be on portraying cutting-edge innovation compared to other businesses </p>      
+        <p> If budget allows, a modern yet established-feeling design refresh can further improve user experience,  While the current design might suggest experience, it could benefit from a refresh. A more modern design could portray innovation without sacrificing the established feel. </p>      
+        <p> <br> <br>
+            <strong>Conclusion  </strong> <br> 
+
+            Strong Families has a website with a strong SEO foundation and clear value proposition. Focusing on image quality, highlighting specialized services, and analyzing website traffic are cost-effective ways to enhance the user experience. A design refresh, while not essential, could be considered if the budget allows.
+        </p>
+    </article>
+        
+    <aside>
+        <img src="logi2.png">
+       
+    </aside>
+</section> 
+  <style>
+
+    /* resets */
+body { margin:0px; padding:0px; }
+
+/* main */
+header {
+    height: 360px;
+    z-index: 10;
+}
+.header-banner {
+    background-color: #333;
+    background-image: url('./logi3.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+}
+
+header h1 {
+    background-color: rgba(18,72,120, 0.8);
+    color: #fff;
+    padding: 0 1rem;
+    position: absolute;
+    top: 2rem; 
+    left: 2rem;
+}
+
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; 
+}
+
+nav {
+    width: 100%;
+    height: 60px;
+    background: #292f36;
+    postion: fixed;
+    z-index: 10;
+}
+
+nav div {
+    color: white;
+    font-size: 2rem;
+    line-height: 60px;
+    position: absolute;
+    top: 0;
+    left: 2%;
+    visibility: hidden;
+}
+.visible-title {
+    visibility: visible;
+}
+
+nav ul { 
+    list-style-type: none;
+    margin: 0 2% auto 0;
+    padding-left: 0;
+    text-align: right;
+    max-width: 100%;
+}
+nav ul li { 
+    display: inline-block; 
+    line-height: 60px;
+    margin-left: 10px;
+}
+nav ul li a {
+    text-decoration: none; 
+    color: #a9abae;
+}
+
+/* demo content */
+body { 
+    color: #292f36;
+    font-family: helvetica;
+    line-height: 1.6;
+}
+.content{ 
+    margin: 0 auto;
+    padding: 4rem 0;
+    width: 960px;
+    max-width: 100%;
+}
+article {
+    float: left;
+    width: 720px;
+}
+article p:first-of-type {
+    margin-top: 0;
+}
+aside {
+    float: right;
+    width: 120px;
+}
+p img {
+    max-width: 100%;
+}
+
+@media only screen and (max-width: 960px) {
+    .content{ 
+        padding: 2rem 0;
+    }
+    article {
+        float: none;
+        margin: 0 auto;
+        width: 96%;
+    }
+    article:last-of-type {  
+        margin-bottom: 3rem;
+    }
+    aside {  
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+}
+
+  </style>
+  <script> 
+/* ========================================== 
+scrollTop() >= 300
+Should be equal the the height of the header
+========================================== */
+
+$(window).scroll(function(){
+    if ($(window).scrollTop() >= 300) {
+        $('nav').addClass('fixed-header');
+        $('nav div').addClass('visible-title');
+    }
+    else {
+        $('nav').removeClass('fixed-header');
+        $('nav div').removeClass('visible-title');
+    }
+});
+
+
+  </script>
